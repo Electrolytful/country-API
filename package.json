@@ -4,6 +4,7 @@
   "description": "",
   "main": "index.js",
   "scripts": {
+    "dev": "nodemon -L ./api",
     "setup-db": "node ./api/db/setup.js",
     "test": "echo \"Error: no test specified\" && exit 1"
   },

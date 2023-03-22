@@ -6,8 +6,8 @@ CREATE TABLE country (
     capital VARCHAR(100) NOT NULL,
     population INT NOT NULL,
     languages VARCHAR(100) NOT NULL,
-    fun_fact VARCHAR(255) NOT NULL,
-    map_image_url VARCHAR(255) NOT NULL,
+    fun_fact VARCHAR(255),
+    map_image_url VARCHAR(255),
     PRIMARY KEY (country_id)
 );
 
